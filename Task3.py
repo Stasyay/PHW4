@@ -5,6 +5,5 @@
 numbers = [1, 1, 2, 3, 4, 3, 4, 5, 10, 55, 55]
 
 dub = [x for x in numbers if numbers.count(x) <= 1]
-print(dub)
-
-
+print(f'исходная последовательность чисел {numbers}')
+print(f'список неповторяющихся элементов исходной последовательности {dub}')
